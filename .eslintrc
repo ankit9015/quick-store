@@ -1,5 +1,5 @@
 {
-	"extends": "@react-native-community",
+	"extends": ["@react-native-community", "plugin:prettier/recommended"],
 	"rules": {
 		"quotes": [2, "double", { "avoidEscape": true }],
 		"prettier/prettier": ["error", { "useTabs": true, "tabWidth": 4 }],

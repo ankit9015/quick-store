@@ -10,7 +10,6 @@ import {
 } from "@expo-google-fonts/oswald";
 import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
 
-
 export default function App() {
 	const [oswaldLoaded] = useOswald({
 		Oswald_400Regular,
@@ -29,7 +28,7 @@ export default function App() {
 			<ThemeProvider theme={theme}>
 				<ProductsScreen />
 			</ThemeProvider>
-			<ExpoStatusBar style="auto" />
+			<ExpoStatusBar style='auto' />
 		</>
 	);
 }
